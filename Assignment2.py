@@ -16,7 +16,7 @@ def main():
     volume = (4 / 3) * math.pi * pow(radius, 3)
 
     # output
-    print("surface area of the sphere wll be %.2f" % s_area)
+    print("surface area of the sphere will be %.2f" % s_area)
 
     print("volume of the sphere will be %.2f" % volume)
 
