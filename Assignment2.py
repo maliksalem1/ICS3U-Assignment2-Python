@@ -6,19 +6,22 @@
 
 import math
 
-#user input
-radius = float(input("Enter the radius of a sphere: "))
 
-#process 1
+def main():
+    # user input
 
-s_area = 4*math.pi*pow(radius,2)
+    radius = float(input("Enter the radius of a sphere: "))
 
-#process 2
+    s_area = 4 * math.pi * pow(radius, 2)
+    volume = (4 / 3) * math.pi * pow(radius, 3)
 
-volume = (4/3)*math.pi*pow(radius,3)
+    # output
+    print("surface area of the sphere wll be %.2f" % s_area)
 
-#output 
-print("surface area of the sphere wll be %.2f" %s_area)
-print("volume of the sphere will be  %.2f" %volume)
+    print("volume of the sphere will be %.2f" % volume)
 
-print("\nDone.\n")
+    print("\nDone.\n")
+
+
+if __name__ == "__main__":
+    main()
